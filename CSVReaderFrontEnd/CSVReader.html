@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSV Reader</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<!--Datatables css-->
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="CSVReaderStyles.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<!--Datatables plugin-->
+	<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+</head>
+
+<body>
+	<div class="row" style="text-align:center">
+		<h1>Outbound code challenge - CSV Reader</h1>
+		<p>The backend is a .NET core web API that uploades the data to an SQL lite database.</p>
+		<p>Use the file uploader below to upload a csv to the Database.</p>
+	</div>
+	<div class="row">
+		<div class="col-sm-2">
+		</div>
+		<div class="col-sm-8">
+			<div class="panel-body">
+				<form action="http://localhost:5000/api/FileReader" method="POST" id="csvForm"
+					enctype="multipart/form-data" onsubmit="return false;">
+					<div class="row">
+						<div class="input-group">
+							<input id="uploadFile" class="form-control" placeholder="Choose File" disabled="disabled"
+								name="file">
+							<div class="input-group-btn">
+								<div class="fileUpload btn btn-success">
+									<span><i class="glyphicon glyphicon-upload"></i> Choose File</span>
+									<input id="uploadBtn" type="file" class="upload" name="file" />
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="panel-body">
+								<div class="col-sm-10" style="padding-left: 0;">								
+									<button class="btn btn-lg btn-primary btn-block" type="submit">Upload</button>
+								</div>
+								<div class="col-sm-2" style="padding-left: 0;padding-right: 0;">
+									<button type="button" class="btn btn-lg btn-danger btn-block" onclick="CSVReader.clearTable()">Clear table</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="col-sm-2">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1">
+		</div>
+		<div class="col-sm-10">
+			<table id="contactsTable" class="display" style="width:100%">
+				<thead>
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Job Title</th>
+						<th>Email</th>
+						<th>Department</th>
+						<th>Contact Type</th>
+						<th>Company Name</th>
+						<th>Business Phone</th>
+						<th>Address Street Line 1</th>
+						<th>Address Street Line 2</th>
+						<th>Address City</th>
+						<th>Address Postalcode</th>
+						<th>Address Country</th>
+					</tr>
+				</thead>
+				<tbody id="contactsTableBody">
+					<!-- Contacts will go here -->
+				</tbody>
+				<tfoot>
+					<tr>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Job Title</th>
+						<th>Email</th>
+						<th>Department</th>
+						<th>Contact Type</th>
+						<th>Company Name</th>
+						<th>Business Phone</th>
+						<th>Address Street Line 1</th>
+						<th>Address Street Line 2</th>
+						<th>Address City</th>
+						<th>Address Postalcode</th>
+						<th>Address Country</th>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+		<div class="col-sm-1">
+		</div>
+	</div>
+</body>
+<footer>
+	<script src="CSVReader.js"></script>
+</footer>
+
+</html>
