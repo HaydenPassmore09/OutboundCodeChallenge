@@ -1,0 +1,21 @@
+first_name,last_name,job_title,emailaddress1,department,contact_type,company_name,business_phone,address1_street1,address1_street2,address1_city,address1_postalcode,address1_country
+Peter,Piper,Knowledge Expert,piper@1st-consulting.co.uk,Sales,Partner,1st Consulting,0159-887-9963,Leicester Mews,"17, Leicester Road",London,W13 9HB,UK
+Jennifer,Cruz,Global Marketing Director,j.cruz@a-datum.com,Marketing,Partner,A. Datum Corporation,1-206-455-9108,4948 West Th St,,Seattle,73683,U.S.
+Susan,Burk,Chief Financial Officer,s.burk@a-datum.com,Finance,Partner,A. Datum Corporation,1-206-555-0111,931 Corte De Luna,,Seattle,79465,U.S.
+Nancy,Anderson,Purchasing Assistant,nancy@adventureworks.com,Operations,End User,Adventure Works,1-217-555-0102,5086 Nottingham Place,,Duvall,16982,U.S.
+Paul,Cannon,Senior Operations Director,p.cannon@alpine-it.com,Operations,Partner,Alpine IT,1-425-555-0107,7723 Firestone Drive,,Redmond,32147,U.S.
+Patrick,Sands,Chief Information Officer,p.sands@alpine-it.com,Technical,Partner,"""Alpine IT""",1-425-555-0110,7765 Sunsine Drive,,Seattle,11910,U.S.
+Sasuke,Higa,Owner,higa.sasuke@byairlines.com,Operations,Partner,Blue Yonder Airlines,1-206-555-0104,7691 Benedict Ct.,,Issaquah,57065,U.S.
+Scott,Konersmann,Chief Engineering Officer,s.konersmann@citypowerandlight.com,Technical,End User,City Power & Light,1-206-555-0105,989 Caravelle Ct,,Issaquah,33597,U.S.
+Jim,Glynn,Owner,jim-glynn@coho-winery.com,Operations,End User,Coho Winery,1-425-555-0109,7165 Brock Lane,,Renton,61795,U.S.
+Thomas,Andersen,Finance Director,thomas.andersen@coho-winery.com,Finance,End User,Coho Winery,1-206-555-0112,7842 Ygnacio Valley Road,,Seattle,12150,U.S.
+Robert,Lyon,Senior Research Projects Director,robert.lyon@contosopharma.com,Technical,End User,Contoso Pharmaceuticals,1-360-585-0106,7230 Berrellesa Street,,Snohomish,78800,U.S.
+Paul,Olliver,Client & Enterprise Solutions,p.olliver@entagroup.co,Sales,Distributor,EntaTech UK Ltd,0333 101 1000,Stafford Park 6,,Telford,TF3 3AT,UK
+Ryan,Graham,Head of Channel Sales,r.graham@entagroup.co,Sales,Distributor,EntaTech UK Ltd,0333 101 1000,Stafford Park 6,,Telford,TF3 3AT,UK
+Maria,Campbell,Marketing Manager,m.campbell@fabrikam.com,Marketing,Partner,"Fabrikam, Inc.",1-207-555-0103,3747 Likins Avenue,,Monroe,37925,U.S.
+Gemma,Monroe,Business Development Manager,g.monroe@fabrikam.com,Operations,Partner,"Fabrikam, Inc.",1-208-555-0153,7995 Edwards Ave.,,Lynnwood,58299,U.S.
+Yvonne,McKay,Owner,yvonne@4thcoffee.com,Operations,End User,Fourth Coffee,1-425-555-0100,249 Alexander Pl.,,Redmond,86372,U.S.
+Roxanna,Elburn,Global Logistics Manager,r.elbu@ingram-dist.com,Operations,Distributor,Ingram Micro UK Ltd,01908 323 455,Wymbush,,Milton Keynes,MK8 8ED,UK
+Susanna,Stubberod,Sales Director,stubberod.s@litware.com,Sales,Partner,"Litware, Inc.",1-425-555-0101,5979 El Pueblo,,Issaquah,23382,U.S.
+Jason,Bridges,Enterprise Specialist,j.bridges@micro-p.co.uk,Sales,Distributor,Micro Peripherals,01256 707070,Shorten Brook Way,Altham Business Park,Altham,BB5 5YJ,UK
+Jack,Black,Entertainer,jack.black@tenaciousd.com,Other,End User,The Spanky Taylor Company',1-308-491-5527,The Spanky Taylor Company,"3727, W. Magnolia",Burbank,CA 91505,US
