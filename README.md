@@ -27,3 +27,5 @@ Consideration given to performance, scalability and security.
 Consideration given to elegant UX and UI design.
 Use of commented code where appropriate.
 The candidate should be able to clearly articulate any additional work required to complete the challenge.
+
+There is a test file in the folder named "Test" in the root.
